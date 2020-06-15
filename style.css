@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    
+    
+}
+
+body{
+    background-color: #4b822a;
+}
+
+.header{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header .title{
+    font-size: 70px;
+    background-color: green;
+    padding: 20px;
+    margin-left: -180px;
+    margin-bottom: 50px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.book img{
+    margin-right: 50px;
+    box-shadow: 0 0 6px 3px black;
+}
+
+.downloads > a, .links > a{
+    display: block;
+    color: #007700;
+    font-style: italic;
+}
+
+.downloads > a{
+    margin: 10px 0 ;
+}
+
+.downloads {
+    margin-bottom: 30px;
+}
+
+.buy{
+    margin-top: 20px;
+    
+}
+
+.buy a{
+    color: #007700;
+}
+.buy .link{
+    display: block;
+    
+    margin:20px 0;
+}
+
+.container{
+    display: flex;
+    
+    line-height: 1.5;
+    
+}
+.container .content{
+    padding: 40px;
+    width:65%;
+    background-color: white;
+    border: 1px solid black;
+
+}
+.aside{
+    padding: 20px;
+    align-self: center;
+}
+
+.book-n{
+    width: 130px;
+    height: 150px;
+}
+.aside .aside-link{
+    
+    margin: 20px 0;
+    font-size: 12px;
+    color: white;
+}
+
+.aside .btn{
+    
+    font-size: 20px;
+    color: black;
+    background-color: gold;
+    padding: .4em;
+    border-radius: 46px;
+}
+
+.text{
+    margin: 20px 0 ;
+}
+
+.text > a {
+    color: #007700;
+}
+.title-learn{
+    font-size: 35px;
+}
+.links-downloads{
+    width: 80%;
+    margin: auto;
+}
